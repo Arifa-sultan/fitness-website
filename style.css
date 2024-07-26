@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/change1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+.navbar-menu{
+    display: flex;
+    justify-content: space-around;
+ padding: 20px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 15px;
+    font-size: 18px;
+}
+.logo{
+    margin: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.button button{
+    margin: 15px;
+    /* color: white; */
+    background-color:orange;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.content{
+    padding-top: 5%;
+    margin-left: 10%;
+}
+ h5 span{
+    color: orange;
+    font-size: 18px;
+}
+h1{
+    font-size: 80px;
+    padding-top: 10px;
+}
+.content p{
+    font-size: 18ox;
+    padding-top: 20px;
+    word-spacing: 3px;
+    padding-bottom: 20px;
+}
+.btn{
+    color: white;
+    background-color: orange;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+/* section 2 */
+.programers{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(78, 76, 76);
+    margin: 10px;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 20px;
+    border: 2px solid black;
+
+
+}
+.programers:hover{
+    border-color: orange;
+}
+.programers h3{
+    padding-bottom: 10px;
+}
+.programers button{
+margin-top: 15px;
+border: none;
+font-size: 15px;
+background-color: rgb(78, 76, 76);
+color: whitesmoke;
+}
+.explore-programers{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+   
+}
+.container1{
+    background-color: rgb(27, 25, 25);
+    
+    /* width: 100%;
+    height: 100vh; */
+}
+.container1 h4{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 5% ;
+
+}
+.container1 h3{
+    color: whitesmoke;
+    padding-top: 10%;
+    margin-left: 14%;
+}
+/* container2 */
+.container2{
+   
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 10%;
+}
+.text{
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.text h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.image img{
+    width: 500px;
+    /* height: 200px; */
+}
+.text p{
+    padding-bottom: 25px;
+}
+.container3{
+    text-align: center;
+    color: white;
+
+}
+.container3 h2{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.container3 p{
+    padding-bottom: 40px;
+}
+/* container4 */
+.container4{
+    color: whitesmoke;
+    padding-bottom: 40px;
+}
+.container4 p{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.container4 h2{
+    padding-top: 5%;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.plan{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(37, 37, 37);
+    margin: 10px;
+    padding: 40px 20px;
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 10px;
+}
+.sub-container4{
+    display: flex;
+    justify-content: center;
+}
+.plan:hover{
+    border-color: orange;
+    cursor: pointer;
+}
+.plan h6{
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.plan b{
+    padding-bottom: 10px;
+}
+.plan button{
+    padding: 10px 30px;
+    color: orange;
+    background-color:rgb(37, 37, 37) ;
+    border-color: orange;
+    border-radius: 10px;
+    
+}
+.footer{
+    background-color:rgb(23, 23, 23);
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.menu{
+    display: flex;
+    padding: 20px;
+
+}
+.company li{
+    list-style: none;
+    padding: 10px 40px;
+    /* margin: 10px; */
+}
+.fitness h2{
+    padding-bottom: 20px;
+}
+.fitness p{
+    line-height: 25px;
+}
+.company h3{
+    padding: 30px;
+}
